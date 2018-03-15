@@ -1,6 +1,6 @@
 /// @description Move Player 2 Paddle
 
-mySpeed = 10
+mySpeed = 20
 
 if keyboard_check(vk_up)
 {
@@ -13,3 +13,4 @@ if keyboard_check(vk_down)
 }
 
 y = clamp(y, sprite_height/2, room_height-(sprite_height/2));
+
